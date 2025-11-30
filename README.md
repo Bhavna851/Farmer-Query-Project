@@ -1,4 +1,4 @@
-**KrishiMitra**
+# KrishiMitra
 
 KrishiMitra is a website for farmers that includes an interactive chatbot system and information pages for crops, fertilizers, and government schemes. The chatbot provides predefined 
 guidance to help farmers with common queries.  
