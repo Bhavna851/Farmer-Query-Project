@@ -441,4 +441,87 @@ body {
     color: #555;
 }
 /*fertilizer.css*/
-/*scheme.css/
+/* ============================
+   RESPONSIVE FIXES FOR MOBILE
+   ============================ */
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Make all sections full-width */
+section, .hero, .chat-container, .crop-container, .page-container {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Fix hero background */
+.hero {
+    background-size: cover !important;
+    background-position: center !important;
+    padding: 40px 20px;
+}
+
+/* Images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navbar responsive */
+.navbar {
+    flex-wrap: wrap;
+    padding: 12px 15px;
+}
+
+.nav-links {
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* Text scaling for small screens */
+h1, h2, h3 {
+    word-wrap: break-word;
+    text-align: center;
+}
+
+/* Chat container responsive */
+.chat-container {
+    width: 90%;
+}
+
+/* Input responsive */
+#userInput {
+    width: 100%;
+}
+
+/* Mobile view */
+@media (max-width: 600px) {
+
+    /* Reduce hero text size */
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    /* Navbar stacked */
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Crop cards */
+    .crop-card {
+        width: 90% !important;
+    }
+}
+
