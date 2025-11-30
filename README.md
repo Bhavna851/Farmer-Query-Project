@@ -35,7 +35,6 @@ Features
 - The chatbot only provides predefined answers for crops and fertilizers.
 - Schemes pages contain static information and do not provide automatic responses.
 
-# Author
-Bhavna Shriwas 
-Third Year Student | Interactive Farmer Chatbot Website
+
+
 
